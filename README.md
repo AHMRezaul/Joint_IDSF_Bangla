@@ -44,6 +44,26 @@ $ python3 predict.py --input_file {INPUT_FILE_PATH} --output_file {OUTPUT_FILE_P
 
 ## Citation
 Please cite the paper "Leveraging Machine-Generated Data for Joint Intent Detection and Slot Filling in Bangla: A Resource-Efficient Approach".
+```
+@inproceedings{karim-uzuner-2025-leveraging,
+    title = "Leveraging Machine-Generated Data for Joint Intent Detection and Slot Filling in {B}angla: A Resource-Efficient Approach",
+    author = {Karim, A H M Rezaul  and
+      Uzuner, {\"O}zlem},
+    editor = "Sarveswaran, Kengatharaiyer  and
+      Vaidya, Ashwini  and
+      Krishna Bal, Bal  and
+      Shams, Sana  and
+      Thapa, Surendrabikram",
+    booktitle = "Proceedings of the First Workshop on Challenges in Processing South Asian Languages (CHiPSAL 2025)",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2025.chipsal-1.21/",
+    pages = "208--216",
+    abstract = "Natural Language Understanding (NLU) is crucial for conversational AI, yet low-resource languages lag behind in essential tasks like intent detection and slot-filling. To address this gap, we converted the widely-used English SNIPS dataset to Bangla using LLaMA 3, creating a dataset that captures the linguistic complexities of the language. With this translated dataset for model training, our experimental evaluation compares both independent and joint modeling approaches using transformer architecture. Results demonstrate that a joint approach based on multilingual BERT (mBERT) achieves superior performance, with 97.83{\%} intent accuracy and 91.03{\%} F1 score for slot filling. This work advances NLU capabilities for Bangla and provides insights for developing robust models in other low-resource languages."
+}
+```
 
 ### Acknowledgement
 Our code is based on the unofficial implementation of the JointBERT+CRF paper from https://github.com/monologg/JointBERT.
